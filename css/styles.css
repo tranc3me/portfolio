@@ -252,7 +252,7 @@ li {
   height: 3px;
   background-color: #535353;
 }
-
+/*
 .case::after {
 	content: "";
 	position: absolute;
@@ -263,7 +263,7 @@ li {
 	margin-left: 70px;
 	}	
 
-
+*/
 .case1, .case2, .case3 , .case4, .case5, .case6{
 	background-color: #333333;
 	background-size:cover;
