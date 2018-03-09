@@ -374,43 +374,42 @@ footer {
 @media screen and (max-width:900px) {
 
 .image {
-	width: 100%;
-	background: url(../img/heading-medium.jpg)no-repeat fixed;
+	
+	background: url(../img/heading-medium.jpg) 0 -70px no-repeat fixed;
 	background-size:contain!important;
 	height:350px !important;
-	background-color:white;
+	background-color:#444444;
 }
 
 .imageText {
-	//display:none;
-	border-bottom:3px solid white;
-	margin-left:35%;
-	margin-right:auto;
-	font-family: Chiller;
-	position:absolute;
-	font-size:70px;
-	color:white;
-	margin-top:333px;
-	font-weight:999;
-	}
-	
-.imageText {
-
-	border-bottom:3px solid white;
-	margin-left:35%;
-	margin-right:auto;
-	font-family: Chiller;
-	position:absolute;
-	font-size:70px;
-	color:white;
+	margin-left: 50px !important;
 	margin-top:233px;
-	font-weight:999;
-	}	
-
-
+}
+	
+.title {
+	width:30%;
 }	
 
+.imagePlacer {
+	margin-top:20px;
+}
 
+.kitepic{
+	margin-top: -30px;
+}	
+
+.aboutMe {
+	margin-top:-28px;
+}	
+
+.headName {
+	margin-top: -50px;
+}	
+
+.firstSection{
+	margin:0;
+}	
+	
 @media screen and (max-width: 600px) {
 	.image {
 	width: 100%;
@@ -494,12 +493,16 @@ footer {
 	
 @media screen and (max-width: 360px) {
 .image {
-	background: url(../img/heading-small_x2.jpg) 0 0 no-repeat fixed;
-	background-size: stretch !important;
-	background-position:top;
-	height: 250px !important;
+	background-image: none;
+	content: url(../img/heading-small.jpg);
+	height: 100%;
+	width: 100%;
 	}
 
+html {
+background-color: red;
+}	
+	
 .firstSection{
 	margin:0;
 	padding-top: 20px;
@@ -515,7 +518,9 @@ footer {
 	
 .aboutMe{
 	margin:0;
-}	
+	font-size: 28px;
+	line-height:18px;
+	}	
 .headName{
 	margin: 0;
 	padding:0;
