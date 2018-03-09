@@ -505,7 +505,7 @@ footer {
 	}	
 
 .headName{
-	margin-top:-60px;
+	margin:none;
 }	
 .imageText {
 	display: none;
