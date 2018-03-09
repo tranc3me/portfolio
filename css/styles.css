@@ -220,6 +220,7 @@ li {
 	display: flex;
 	flex-flow: row wrap;
 	height: 100%;
+	width: 100%;
 	padding-top:20px;
 	justify-content:center;
 	}	
@@ -229,7 +230,7 @@ li {
 	
 	display:flex;
 	flex-flow:row wrap;
-	min-width: 350px;
+	width: 350px;
 	height: 200px;
 	border-top: 3px solid white;
 	border-bottom: 3px solid white;
@@ -431,7 +432,7 @@ footer {
 	background-color:white;
 }
 
-body {
+html {
 	background-color:red;
 }	
 	
