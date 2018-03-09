@@ -123,7 +123,7 @@ li {
 	position:absolute;
 	font-size:70px;
 	color:white;
-	margin-top:333px;
+	margin-top:433px;
 	font-weight:999;
 	}
 	
@@ -177,7 +177,7 @@ li {
 .firstSection {
 	display:flex;
 	flex-flow: row nowrap;
-	max-width: 100%;
+	min-width: 100%;
 	height:fit-content;
 	margin-top:-40px;
 	background-color: #444444;
@@ -200,7 +200,7 @@ li {
 	font-family:Chiller;
 	font-size: 48px;
 	background-color: #535353;
-	
+	max-width: 100%;
 	}	
 
 
@@ -219,8 +219,7 @@ li {
 .cases {
 	display: flex;
 	flex-flow: row wrap;
-	height: 100%;
-	width: 100%;
+	max-width: 100%;
 	padding-top:20px;
 	justify-content:center;
 	}	
@@ -253,17 +252,19 @@ li {
 	background-color: #535353;
 
 }
-/*
-.cases > .case::after {
+
+.case::after {
 	content: "";
 	position: absolute;
 	width: 200px;
 	height:3px;
-	//background-color: #535353;
-	background-color:white;
+	margin-left: 50px;
+	margin-top: 194.5px;
+	background-color: #535353;
+	
 	
 	}	
-*/
+
 .case1, .case2, .case3 , .case4, .case5, .case6{
 	background-color: #333333;
 	background-size:cover;
@@ -427,7 +428,7 @@ footer {
 .image {
 	width: 100%;
 	background: url(../img/heading-small.jpg) no-repeat fixed;
-	background-size: stretch;
+	background-size: cover;
 	height:290px !important;
 	background-color:white;
 }
@@ -452,10 +453,11 @@ footer {
 	width: 100vw;
 	font-size: 38px;
 	line-height:30px;
-	
+	padding-right: 10px;
 	}	
 
 .imagePlacer {
+	//display:none;
 	border-radius: 5%;
 	width: 90px;
 	height: 90px;
@@ -491,6 +493,11 @@ footer {
 }
 	
 @media screen and (max-width: 360px) {
+.image {
+	background: url(../img/heading-small.jpg)no-repeat fixed;
+	background-position: stretch;
+}
+	
 .title {
 	min-width:100%;
 	border-top: 4px solid #679e5d;
@@ -502,6 +509,20 @@ footer {
 	display: none;
 }
 
+
 .imagePlacer{
 	display:none;
 }	
+
+.case{
+	min-width: 200px !important;
+}	
+
+.case::before {
+	display:none;
+}	
+.case::after{
+	display:none;
+}
+
+}
