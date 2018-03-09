@@ -381,7 +381,7 @@ footer {
 }
 
 .imageText {
-	display:none;
+	//display:none;
 	border-bottom:3px solid white;
 	margin-left:35%;
 	margin-right:auto;
@@ -426,17 +426,82 @@ footer {
 @media screen and (max-width: 450px) {
 .image {
 	width: 100%;
-	background: url(../img/pixel.jpg) no-repeat fixed;
-	background-size: contain;
+	background: url(../img/heading-small.jpg) no-repeat fixed;
+	background-size: stretch;
 	height:290px !important;
 	background-color:white;
 }
 
+.title {
+	min-width:60%;
+	border-top: none;
+}	
 
+.headName {
+	display:flex;
+	flex-wrap: row nowrap;
+	height:fit-content;
+	background-color: #444444;
+	margin-bottom: 40px;
+	margin-top: -45px;
+	padding-bottom: 25px;
+	
+	}	
 
+.aboutMe {
+	width: 100vw;
+	font-size: 38px;
+	line-height:30px;
+	
+	}	
 
+.imagePlacer {
+	border-radius: 5%;
+	width: 90px;
+	height: 90px;
+	margin-right: 10px;
+	border: 2px solid #963c5f;
+	margin-top: 60px;
+}
 
+.kitepic{
+	display:none;
+}	
+/*
+.cases {
+
+	justify-content:left;
+	}
+*/
+.imageText {
+
+	border-bottom:4px solid white;
+	border-image: linear-gradient(to right, white,white,#679e5d,white,white);
+	border-image-slice: 70;
+	margin-left: 20px;
+	margin-right:auto;
+	font-size:48px;
+	color:white;
+	margin-top:240px;
+	font-weight:500;
+
+}	
+	
 
 }
-		
 	
+@media screen and (max-width: 360px) {
+.title {
+	min-width:100%;
+	border-top: 4px solid #679e5d;
+	margin-left: 0;
+	margin-right: 0;
+	}	
+	
+.imageText {
+	display: none;
+}
+
+.imagePlacer{
+	display:none;
+}	
