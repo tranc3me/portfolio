@@ -427,7 +427,7 @@ footer {
 @media only screen and (max-width: 450px) {
 .image {
 	width: 100%;
-	background: url(../img/pixel.jpg) no-repeat fixed;
+	background: url(../img/heading-small_x2.jpg) no-repeat fixed;
 	background-size: contain;
 	height:290px !important;
 	background-color:white;
