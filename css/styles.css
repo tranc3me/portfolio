@@ -494,17 +494,19 @@ footer {
 	
 @media screen and (max-width: 360px) {
 .image {
-	background: url(../img/heading-small.jpg)no-repeat fixed;
-	background-position: stretch;
+	background: url(../img/heading-small_x2.jpg)no-repeat fixed;
+	background-size: stretch;
 }
 	
 .title {
 	min-width:100%;
 	border-top: 4px solid #679e5d;
 	margin-left: 0;
-	margin-right: 0;
 	}	
-	
+
+.headName{
+	margin-top:-60px;
+}	
 .imageText {
 	display: none;
 }
@@ -515,14 +517,20 @@ footer {
 }	
 
 .case{
-	min-width: 200px !important;
-}	
+	min-width: 250px !important;
+	
+	}	
 
 .case::before {
 	display:none;
 }	
 .case::after{
 	display:none;
+}
+
+.aboutMe {
+	max-width: 100%;
+
 }
 
 }
