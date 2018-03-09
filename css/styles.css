@@ -494,8 +494,8 @@ footer {
 	
 @media screen and (max-width: 360px) {
 .image {
-	background: url(../img/heading-small_x2.jpg)no-repeat fixed;
-	background-size: stretch;
+	background: url(../img/heading-org.jpg)no-repeat fixed;
+	background-size: cover;
 }
 	
 .title {
@@ -532,9 +532,22 @@ footer {
 	max-width: 100%;
 
 }
-
-html {
-	background-color: red;
-}	
+.logo {
+	margin-left: 10px;
+    font-size:34px;
+	margin-top: 15px;
 	
 }
+.headIcon {
+	margin-right: 15px !important;
+}	
+.blueLine {
+	margin-right: 10px !important;
+}
+
+html{
+	background-color:green;
+	}	
+	
+}
+
