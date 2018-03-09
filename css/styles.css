@@ -200,7 +200,7 @@ li {
 	font-family:Chiller;
 	font-size: 48px;
 	background-color: #535353;
-	max-width: 100%;
+	
 	}	
 
 
@@ -230,7 +230,7 @@ li {
 	
 	display:flex;
 	flex-flow:row wrap;
-	width: 350px;
+	min-width: 300px;
 	height: 200px;
 	border-top: 3px solid white;
 	border-bottom: 3px solid white;
@@ -244,25 +244,25 @@ li {
 	}	
 
 .case::before{
-  content: "";
-  position: absolute;
-  margin-top: -4px;
-  margin-left: 70px;
-  width: 200px;
-  height: 3px;
-  background-color: #535353;
+	content: "";
+	position: absolute;
+	margin-top: -3.5px;
+	margin-left: 50px;
+	width: 200px;
+	height: 3px;
+	background-color: #535353;
+
 }
 /*
-.case::after {
+.cases > .case::after {
 	content: "";
 	position: absolute;
 	width: 200px;
 	height:3px;
-	background-color: #535353;
-	margin-top:194.5px;
-	margin-left: 70px;
+	//background-color: #535353;
+	background-color:white;
+	
 	}	
-
 */
 .case1, .case2, .case3 , .case4, .case5, .case6{
 	background-color: #333333;
@@ -377,7 +377,6 @@ footer {
 	background: url(../img/heading-medium.jpg)no-repeat fixed;
 	background-size:contain!important;
 	height:350px !important;
-	
 	background-color:white;
 }
 
@@ -424,17 +423,17 @@ footer {
 }
 
 
-@media only screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
 .image {
 	width: 100%;
-	background: url(../img/heading-small_x2.jpg) no-repeat fixed;
+	background: url(../img/pixel.jpg) no-repeat fixed;
 	background-size: contain;
 	height:290px !important;
 	background-color:white;
 }
 
 
-	
+
 
 
 
