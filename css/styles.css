@@ -524,7 +524,7 @@ footer {
 	padding:0;
 	}	
 .imageText {
-	font-size: 36px;
+	font-size: 32px;
 	border-bottom: none;	
 }
 
@@ -534,7 +534,7 @@ footer {
 }	
 
 .case{
-	min-width: 300px !important;
+	min-width: 250px !important;
 	border-right: 3px solid white;
 	border-left: 3px solid white;	
 	border-image-slice: 1;
@@ -571,7 +571,7 @@ footer {
 
 
 li {
-	width:180px;
+	width:190px;
 	font-size:33px;
 	padding:5px;     
 }	
@@ -585,8 +585,8 @@ li {
 	margin-left: 10px;
 }		
 	
-.social {
-	padding-bottom: 10px;
+footer {
+	height: 180px;
 }	
 
 }
