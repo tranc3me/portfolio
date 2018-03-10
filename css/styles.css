@@ -525,7 +525,7 @@ footer {
 	}	
 .imageText {
 	font-size: 32px;
-	border-bottom: none;	
+	border: transparent;	
 }
 
 
@@ -534,7 +534,7 @@ footer {
 }	
 
 .case{
-	min-width: 250px !important;
+	//min-width: 250px !important;
 	border-right: 3px solid white;
 	border-left: 3px solid white;	
 	border-image-slice: 1;
@@ -577,7 +577,7 @@ li {
 }	
 
 .little {
-	font-size: 30px;
+	//font-size: 30px;
 	width: inherit;
 	}
 
