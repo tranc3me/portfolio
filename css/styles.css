@@ -506,7 +506,7 @@ background-color: red;
 .firstSection{
 	margin:0;
 	padding-top: 20px;
-	padding-bottom: 20px;
+	
 	}	
 	
 .title {
@@ -521,6 +521,7 @@ background-color: red;
 	margin:0;
 	font-size: 28px;
 	line-height:normal;
+	padding-bottom: 20px;
 	}	
 .headName{
 	margin: 0;
@@ -566,9 +567,6 @@ background-color: red;
 	margin-right: 10px !important;
 }
 
-.greenLine {
-	display:none;
-	}	
 
 	
 	
