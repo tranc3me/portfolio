@@ -519,7 +519,7 @@ background-color: red;
 .aboutMe{
 	margin:0;
 	font-size: 28px;
-	line-height:18px;
+	line-height:normal;
 	}	
 .headName{
 	margin: 0;
