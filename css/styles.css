@@ -536,7 +536,8 @@ background-color: red;
 
 .case{
 	min-width: 250px !important;
-	
+	border-right: 3px solid white;
+	border-left: 3px solid white;
 	}	
 
 .case::before {
