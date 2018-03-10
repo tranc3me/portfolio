@@ -506,6 +506,7 @@ background-color: red;
 .firstSection{
 	margin:0;
 	padding-top: 20px;
+	padding-bottom: 20px;
 	}	
 	
 .title {
@@ -570,9 +571,7 @@ background-color: red;
 	}	
 
 	
-.case1, .case2, .case3 , .case4, .case5, .case6{
-	background-color: transparent;
-}	
+	
 
 .secondSection {
 	padding-top: 50px;
