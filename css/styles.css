@@ -496,12 +496,10 @@ footer {
 	
 @media screen and (max-width: 360px) {
 
-
-.image > .headimg {
-	content: url(../img/heading-small.jpg);
+.image {
+	background-image: transparent;
 }	
-	
-	
+
 .firstSection{
 	margin:0;
 	padding-top: 20px;
@@ -565,7 +563,7 @@ footer {
 }
 
 .greenLine {
-	max-width: inherit;
+	min-width: inherit;
 	overflow: hidden;
 }
 
@@ -579,14 +577,15 @@ li {
 }	
 
 .little {
-	font-size: 38px;
-}
+	font-size: 30px;
+	width: inherit;
+	}
 
 .menu {
 	margin-left: 10px;
 }		
 	
-footer {
+.social {
 	padding-bottom: 10px;
 }	
 
