@@ -566,6 +566,12 @@ background-color: red;
 .greenLine {
 	display:none;
 	}	
+
+	
+.case1, .case2, .case3 , .case4, .case5, .case6{
+	background-color: none;
+}	
+	
 	
 }
 
