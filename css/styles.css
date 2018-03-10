@@ -538,6 +538,7 @@ background-color: red;
 	min-width: 250px !important;
 	border-right: 3px solid white;
 	border-left: 3px solid white;
+	border-image-slice: 1;
 	}	
 
 .case::before {
@@ -570,9 +571,12 @@ background-color: red;
 
 	
 .case1, .case2, .case3 , .case4, .case5, .case6{
-	background-color: none;
+	background-color: transparent;
 }	
-	
+
+.secondSection {
+	padding-top: 50px;
+	}	
 	
 }
 
