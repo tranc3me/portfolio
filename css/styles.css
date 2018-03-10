@@ -563,5 +563,9 @@ background-color: red;
 	margin-right: 10px !important;
 }
 
+.greenLine {
+	display:none;
+	}	
+	
 }
 
